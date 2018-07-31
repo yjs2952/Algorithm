@@ -14,7 +14,6 @@ public class InsertSort {
 			input[i] = sc.nextInt();
 		}
 		
-		
 		for(int i=0; i<input.length; i++) {
 			
 			for(int j=i ; j>=1; j--) {
@@ -33,5 +32,7 @@ public class InsertSort {
 		for(int i=0; i<input.length; i++) {
 			System.out.print(input[i]);
 		}
+		
+		sc.close();
 	}
 }

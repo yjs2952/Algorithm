@@ -36,8 +36,6 @@ public class SecondMin {
 	
 	public static void getSecondMin(int[] input, int min) {
 		
-		int secondMin = 9999;
-		
 		for(int i=0; i<input.length; i++) {
 			
 			if(input[i] == min) {
