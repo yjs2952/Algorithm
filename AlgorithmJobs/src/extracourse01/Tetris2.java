@@ -1,4 +1,4 @@
-package extracourse1;
+package extracourse01;
 
 import java.util.Scanner;
 
