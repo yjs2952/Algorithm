@@ -1,4 +1,4 @@
-package extracourse1;
+package extracourse01;
 
 import java.util.Scanner;
 
@@ -37,7 +37,7 @@ public class BaseBall {
 
 		int strikeCnt = 0;	
 		int ballCnt = 0;	
-		int correctCnt = 0;	// ì„ì˜ì˜ ìˆ˜ì™€ ì œì‹œí•œ ì¡°ê±´ì´ ê°™ì€ ê²½ìš°ì˜ ìˆ˜ 
+		int correctCnt = 0;	// ?„?˜?˜ ?ˆ˜?? ? œ?‹œ?•œ ì¡°ê±´?´ ê°™ì? ê²½ìš°?˜ ?ˆ˜ 
 		int result = 0;
 		
 		int num[] = new int[3];

@@ -1,4 +1,4 @@
-package extracourse1;
+package extracourse01;
 
 import java.util.Scanner;
 
@@ -34,7 +34,7 @@ public class Tetris2 {
 
 			for (int j = 0; j < input.length; j++) {
 
-				if (input[j][i] == 1) { // ì–´ë””ì„œ ë¶€í„° ìŒ“ì„ ìˆ˜ ìžˆëŠ”ì§€ í™•ì¸
+				if (input[j][i] == 1) { // ?–´?””?„œ ë¶??„° ?Œ“?„ ?ˆ˜ ?žˆ?Š”ì§? ?™•?¸
 
 					blankPos = j+1;
 					break;
