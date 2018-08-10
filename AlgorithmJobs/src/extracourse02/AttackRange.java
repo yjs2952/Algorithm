@@ -15,16 +15,25 @@ public class AttackRange {
 
 		String[][] arr = new String[n][n];
 
-		arr[x - 1][y - 1] = "x";
+		//arr[x - 1][y - 1] = "x";
+		for (int i = 0; i < n; i++) {
+
+			for (int j = 0; j < n; j++) {
+
+					arr[i][j] = "0";
+			}
+		}
 
 		for (int i = 0; i < n; i++) {
 
 			for (int j = 0; j < n; j++) {
 
-				if (i != x - 1 && j != y - 1) {
+				if (i == x - 1 && j == y - 1) {
 
-					arr[i][j] = "0";
+					arr[i][j] = "x";
 				}else {
+					
+					//arr[i][j] = "0";
 					
 					if (i == x - 2 && j == y - 1) {		// 위
 
